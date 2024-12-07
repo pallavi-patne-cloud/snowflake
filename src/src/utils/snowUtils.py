@@ -29,6 +29,15 @@ class SnowflakeConnector:
         self.cursor.close()
         self.connection.close()
 
+###  Below details must be in config and password in hashicorp vault before commiting to git
+# account = "TNWYUNB-GF82581"
+# user = "PALLAVI"
+# password = "Ayaan2012"
+# database = "SNOWFLAKE_SAMPLE_DATA"
+# schema = "TPCH_SF1"
+# role = "SYSADMIN"
+# warehouse = "COMPUTE_WH"
+
 account = "TNWYUNB-GF82581"
 user = "PALLAVI"
 password = "Ayaan2012"
